@@ -1,0 +1,217 @@
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        padding: 10px;
+    }
+    header.sticky {
+        padding: 10px;
+    }
+    .navbar-link{
+        display: none;
+    }
+
+    header .toggle_btn img{
+        display: block;
+        height: 25px;
+        width: 25px;
+    }
+    
+    .dropdown_menu{
+        display: block;
+        margin-top: 100px;
+     }
+     header .ogo{
+        width: 40%;
+     }
+     .dropdown_menu li a{
+        font-size: 30px;
+        justify-content: space-between;
+        display: flex;
+        margin: 10px;
+     }
+     
+     /* .icon-cart img{
+        width: 1%;
+     } */
+     
+     /* .icon-cart span{
+        width: 15px;
+        height: 15px;
+     } */
+     header .icon-cart span{
+        right: 121px;
+        top: 38%;
+        cursor: pointer;
+     }
+     
+}
+
+@media (max-width: 576px) {
+    .dropdown_menu{
+        left: 2rem;
+        width: unset;
+    }
+}
+/* banner */
+
+@media (max-width: 992px) {
+    .hero{
+        margin: 0px;
+        width: 100%;
+        height: 100vh;
+    }
+    .content{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 150px 0px;
+    }
+    .content h1{
+        font-size: 40px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .content p{
+        font-size: 20px;
+        margin-bottom: 40px;
+        padding-right: 40%;
+    }
+    .content .btn{
+        font-size: 15px;
+        padding: 8px 16px;
+    }
+    .feature-img{
+        width: 90%;
+        /* padding: 160px 0px; */
+        padding: 300px 20px;
+    }
+}
+
+/* features */
+@media screen and (max-width: 992px) {
+    .headings{
+        position: relative;
+        bottom: 0px;
+    }
+    .features{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-contnt .box{
+        margin: 5px 0;
+    }
+    .headings h1{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+}
+
+/* About Us */
+@media screen and (max-width: 992px) {
+    .about-us {
+        text-align: center;
+        margin-top: -90px;
+      }
+    .about-us-content {
+      flex-direction: column;
+    }
+    .left-column h2{
+        margin-top: 90px;
+    }
+  
+    .left-column,
+    .right-column {
+      width: 90%;
+    }
+    .right-column img{
+      width: 90%;
+      height: auto;
+      margin-top: 40px;
+    }
+  
+    .vision,
+    .mission {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .vision img,
+    .mission img {
+      width: 90%;
+      height: auto;
+    }
+  }
+
+/* shop page */
+
+@media screen and (max-width: 992px) {
+    .section-subtitle {
+        color: var(--cinnabar);
+        font-family: var(--ff-rubik);
+        text-align: center;
+        font-weight: var(--fw-500);
+        font-size: 14px;
+    }
+    .section-title{
+        color: black;
+        margin-block: 10px 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .section-title span{
+        color: brown;
+        display: inline-block;
+        text-align: center;
+    }
+    .section-text{
+        max-width: 44ch;
+        margin-inline: auto;
+        margin-block-end: 30px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+/* form fo gallery page */
+@media screen and (max-width: 992px) {
+    .hz{
+        margin-top: 8%;
+        font-size: 20px;
+     }
+     #image {
+        margin-top: 5px;
+        width: 95%;
+     }
+     #seriesCode {
+        margin-left: 5%;
+        font-size: 20px;
+     }
+     .ser{
+        margin-left: 5%;
+      }
+}
+
+/* footer */
+@media screen and (max-width: 992px) {
+    footer{
+        position: relative;
+        bottom: 0px;
+    }
+    .main-contnt{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .main-contnt .box{
+        margin: 5px 0;
+    }
+}
