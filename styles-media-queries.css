@@ -184,20 +184,20 @@
 
 /* form fo gallery page */
 @media screen and (max-width: 992px) {
-    .hz{
+    /* .hz{
         margin-top: 8%;
         font-size: 20px;
-     }
-     #image {
+     } */
+     /* #image {
         margin-top: 5px;
         width: 95%;
-     }
+     } */
      #seriesCode {
-        margin-left: 5%;
+        margin-left: 0.5%;
         font-size: 20px;
      }
      .ser{
-        margin-left: 5%;
+        /* margin-left: 5%; */
       }
 }
 
