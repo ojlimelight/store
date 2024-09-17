@@ -147,7 +147,7 @@ document.getElementById('galleryForm').addEventListener('submit', function(event
   message += `Size: ${size}\n`;
   message += `Colors: ${colors}\n`;
 
-  const whatsappNumber = '+2347066224632';
+  const whatsappNumber = '+2347089505534';
   const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
   window.open(whatsappURL, '_blank');
