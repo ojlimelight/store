@@ -113,7 +113,6 @@ $(document).ready(function() {
 
 // form for gallery
 
-
 document.getElementById('image').addEventListener('change', function() {
   const file = this.files[0];
   if (file) {

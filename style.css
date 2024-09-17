@@ -509,8 +509,8 @@ input[type="file"] {
    width: 100%;
    padding: 6px;
    box-sizing: border-box;
-   /* width: 85%; */
-   /* margin-left: 15%; */
+   width: 85%;
+   margin-left: 15%;
    font-size: 20px;
 }
 
@@ -523,24 +523,24 @@ select {
    border-radius: 5px;
    border: 1px solid #ccc;
 }
-/* .labip{
+.labip{
    display: flex;
    position: relative;
-} */
+}
 
-/* .lab{
+.lab{
    flex: 1;
-} */
-/* .ip{
+}
+.ip{
    flex: 1;
-} */
+}
 
-/* .hz{
+.hz{
    margin-top: 5%;
    font-size: 20px;
-} */
+}
  .ser{
-   /* margin-left: 15%; */
+   margin-left: 15%;
  }
 .pre{
    display: none; 
