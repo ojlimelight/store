@@ -43,6 +43,7 @@ const images = [
     './IMAGES/products/11ss.png',
     './IMAGES/products/women flat.png',
     './IMAGES/products/black half.png',
+    './IMAGES/products/luxury.png',
     './IMAGES/products/12ss.png',
     './IMAGES/products/13ss.png',
     './IMAGES/products/14ss.png',
