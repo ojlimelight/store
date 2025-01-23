@@ -39,10 +39,18 @@ toggleBtn.onclick = function () {
 //banner section image changer
 const featureImg = document.querySelector('.feature-img');
 const images = [
-    // './IMAGES/products/BAKER Aspen.png',
-    // './IMAGES/products/removebg-preview.png',
+    './IMAGES/products/10ss.png',
+    './IMAGES/products/11ss.png',
     './IMAGES/products/women flat.png',
     './IMAGES/products/black half.png',
+    './IMAGES/products/12ss.png',
+    './IMAGES/products/13ss.png',
+    './IMAGES/products/14ss.png',
+    './IMAGES/products/15ss.png',
+    './IMAGES/products/16ss.png',
+    './IMAGES/products/17ss.png',
+    './IMAGES/products/19ss.png',
+    './IMAGES/products/20ss.png',
     './IMAGES/products/2sss.png',
     './IMAGES/products/3sss.png',
     './IMAGES/products/4sss.png'
